@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+html {
+
+}
+body {
+	width: 						60em;
+	margin-left: 				auto;
+	margin-right: 				auto;
+	-moz-border-radius: 		0.5em;
+	-webkit-border-radius: 		0.5em;
+
+}
+
+article > header {
+	padding-top: 0.1em;
+}
+
+article {
+    padding-bottom: 0.1em;
+}
+
+article > header h1 {
+	-webkit-border-radius: 		0.5em;
+	text-align: 				center;
+	background: 				lightgrey;
+	padding-top: 0.25em;	
+	padding-bottom: 0.25em;
+	
+	margin-left: 1em;
+	margin-right: 1em;
+	
+	-moz-box-shadow: 0.4em 0.4em 0.1em #888;
+	-webkit-box-shadow: 0.4em 0.4em 0.1em #888;
+}
+
+article > header h3 {
+	text-align: 				right;
+} 
+
+section {
+	padding-left: 				1em;
+}
+
+.code {
+	-moz-border-radius: 		0.5em;
+	-webkit-border-radius: 		0.5em;
+  	padding: 						1em;
+	margin: 						1em;
+	background-color: 			lightgrey;
+}
+
+.code h4 {
+	padding: 					0em;
+	margin: 					0em;
+}
+
